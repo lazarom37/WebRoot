@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "LibreFranklinBlack";
+  src: url("./LibreFranklin-Black.ttf");
+}
+
+html {
+  background: rgb(55, 52, 59);
+  background-size: cover;
+}
+
+h1 {
+  font-family: LibreFranklinBlack;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: rgb(238, 130, 153);
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+li {
+  font-size: 30px;
+  color: white;
+  border: white;
+  border-style: outset;
+  padding: 10px;
+  margin: 10px;
+  background: rgb(80, 71, 79);
+}
+
+ol {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(0, -20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0px);
+  }
+}
