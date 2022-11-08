@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="../favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <title>BNB-B</title>
+  </head>
+
+  <header>
+    <h1>This is a demo for modals by [marcus]</h1>
+    <h3>BNB-B</h3>
+  </header>
+
+  <main>
+    <body>
+        <!-- Modal Code -->
+      <div class="full-img" id="fullImgBox">
+        <!-- When thumbnail is clicked, src is changed -->
+        <img src="IMAGE_LINK_GOES_HERE" id="fullImg" /> 
+        <p>
+          The Modal is now open. This code was originally made for an image gallery but we can refactor it to our needs. 
+          To exit, click outside the image to exit view (we can adjust this later). I added code in the .js file so you can
+          also just press Esc on your keyboard. Supposedly it's possible to add button spans for sharing, closing the
+          modal, and possibly more but I haven't played with it yet
+        </p>
+        <a href="https://www.youtube.com/watch?v=sHG3Sf6XN9g"><p style="color:aqua">This is where I got my code (click me)</p></a>
+      </div>
+      <!-- Series of thumbnails that will open Modal when clicked -->
+      <div class="portfolio">
+        <img id="thumbnail" src="../img/crt.jpg" onclick='openFullImg("../img/crt.jpg")'/>
+        <img id="thumbnail" src="../img/boo.png" onclick='openFullImg("../img/boo.png")'/>
+      </div>
+      <script src="../js/portfolio.js"></script>
+    </body>
+  </main>
+</html>
