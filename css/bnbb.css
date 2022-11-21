@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "LibreFranklinBlack";
+  src: url("./LibreFranklin-Black.ttf");
+}
+
+.container {
+  min-width: 100vw;
+}
+
+html {
+  font-family: LibreFranklinBlack;
+  background-image: url("../img/bnb_b.png");
+}
